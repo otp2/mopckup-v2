@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul:not(.grid) > li {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+ul:not(.grid) > li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #666;
+}
+
+/* Hide scrollbar but keep functionality */
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.program-slider {
+  --swiper-theme-color: #235ff8;
+  --swiper-navigation-size: 16px;
+  margin: 0 auto;
+}
+
+.program-slider .swiper-button-next,
+.program-slider .swiper-button-prev {
+  background: #FFB81C;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #002855;
+  top: auto;
+  bottom: 24px;
+  margin-top: 0;
+  z-index: 20;
+}
+
+.program-slider .swiper-button-prev {
+  left: auto;
+  right: 84px;
+}
+
+.program-slider .swiper-button-next {
+  right: 40px;
+}
+
+.program-slider .swiper-button-next:hover,
+.program-slider .swiper-button-prev:hover {
+  background: #ffc647;
+  color: #002855;
+}
+
+.program-slider .swiper-button-next::after,
+.program-slider .swiper-button-prev::after {
+  font-size: 0.875rem;
+  font-weight: 900;
+}
