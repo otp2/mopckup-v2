@@ -76,7 +76,7 @@ export const ConditionsTab: React.FC<ConditionsTabProps> = (props) => {
 
   return (
     <div className="mb-24">
-      <h2 className="text-4xl mb-1.5 font-spectral tracking-tight font-normal">Conditions We Treat</h2>
+      <h2 className="text-4xl mb-1.5 font-spectral tracking-tight font-normal">Conditions we treat</h2>
       <p className="text-gray-800 text-lg leading-relaxed mb-6">
         We provide evidence-based treatment for a wide range of mental health conditions across all age groups. No matter what challenges you or your loved one are facing, we are here to help you find hope and healing. Conditions we treat include:
       </p>

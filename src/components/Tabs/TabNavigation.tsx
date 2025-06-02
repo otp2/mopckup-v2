@@ -7,11 +7,11 @@ interface TabNavigationProps {
 
 export const TabNavigation: React.FC<TabNavigationProps> = ({ activeTab, setActiveTab }) => {
   const tabs = [
-    { id: 'conditions-we-treat', label: 'Conditions We Treat' },
+    { id: 'conditions-we-treat', label: 'Conditions we treat' },
     { id: 'specialized-programs', label: 'Programs' },
-    { id: 'levels-of-care', label: 'Levels of Care' },
-    { id: 'referrals', label: 'Referrals & Professional Resources' },
-    { id: 'patient-resources', label: 'Patient & Family Resources' },
+    { id: 'levels-of-care', label: 'Levels of treatment' },
+    { id: 'referrals', label: 'Professional resources' },
+    { id: 'patient-resources', label: 'Patient & community resources' },
   ];
 
   return (

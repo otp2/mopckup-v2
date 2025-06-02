@@ -9,7 +9,7 @@ interface LevelsOfCareTabProps {
 export const LevelsOfCareTab: React.FC<LevelsOfCareTabProps> = ({ openAccordion, setOpenAccordion }) => {
   return (
     <div className="mb-24">
-      <h2 className="text-4xl mb-1.5 font-spectral tracking-tight font-normal">Levels of Care</h2>
+      <h2 className="text-4xl mb-1.5 font-spectral tracking-tight font-normal">Levels of treatment</h2>
       <p className="text-gray-800 text-lg leading-relaxed mb-6">
         We understand that everyone's situation is different, so we offer multiple levels of care to match the intensity of support you need. From 24/7 hospital care to convenient outpatient visits, our continuum of care ensures you can get help on your terms. Below are the main levels of care we provide:
       </p>
